@@ -18,7 +18,7 @@ import org.springframework.web.server.ResponseStatusException;
 
 import com.projectcosmos.api.repository.OAuthAccountRepository;
 import com.projectcosmos.api.config.Helpers;
-import com.projectcosmos.api.dto.OAuthAccountUpdateDto;
+import com.projectcosmos.api.dto.OAuthAccount.OAuthAccountUpdateDto;
 import com.projectcosmos.api.entity.OAuthAccount;
 
 import lombok.RequiredArgsConstructor;

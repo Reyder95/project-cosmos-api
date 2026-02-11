@@ -16,12 +16,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.projectcosmos.api.dto.UserLoginDto;
-import com.projectcosmos.api.dto.UserResponseDto;
-import com.projectcosmos.api.dto.UserUpdateDto;
 import com.projectcosmos.api.entity.User;
 import com.projectcosmos.api.repository.UserRepository;
 import com.projectcosmos.api.config.Helpers;
+import com.projectcosmos.api.dto.User.UserLoginDto;
+import com.projectcosmos.api.dto.User.UserResponseDto;
+import com.projectcosmos.api.dto.User.UserUpdateDto;
 
 import lombok.RequiredArgsConstructor;
 
