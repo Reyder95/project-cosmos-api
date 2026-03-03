@@ -30,10 +30,10 @@ public class StarSystem {
     @Column(name = "system_name", nullable = false, unique = true, length = 50)
     private String systemName;
 
-    @Column(name = "security_level", columnDefinition = "DECIMAL DEFAULT 1.0")
+    @Column(name = "security_level", columnDefinition = "numeric(5,2) default 1.0")
     private Double securityLevel;
 
-    @Column(name = "heat", columnDefinition = "DECIMAL DEFAULT 0.0")
+    @Column(name = "heat", columnDefinition = "numeric(5,2) default 0.0")
     private Double heat;
 
     @Column(name = "star_type_id")

@@ -101,6 +101,6 @@ public class StarMoonController {
         }
 
         starMoonRepository.deleteById(Id);
-        return helpers.createResponseEntity(true, starMoon, null, HttpStatus.OK);
+        return helpers.createResponseEntity(true, starMoon, "Star Moon with ID " + Id + " deleted successfully", HttpStatus.OK);
     }
 }
