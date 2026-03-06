@@ -91,6 +91,5 @@ public class StarSystemController {
 
         starSystemRepository.deleteById(id);
         return helpers.createResponseEntity(true, starSystem, "Star system with ID " + id + " deleted successfully", HttpStatus.OK);
-
     }
 }
