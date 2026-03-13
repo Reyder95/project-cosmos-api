@@ -1,4 +1,4 @@
-package com.projectcosmos.api.dto;
+package com.projectcosmos.api.dto.OAuthAccount;
 
 import lombok.Data;
 

@@ -1,7 +1,6 @@
-package com.projectcosmos.api.dto;
+package com.projectcosmos.api.dto.User;
 
 import lombok.Data;
-import java.time.LocalDateTime;
 
 @Data
 public class UserLoginDto {

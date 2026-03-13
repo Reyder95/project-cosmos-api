@@ -20,4 +20,8 @@ public class Helpers {
 
         return ResponseEntity.status(status).body(response);
     }
+
+    public static enum SlotType {
+        HIGH, MEDIUM, LOW
+    }
 }
