@@ -1,6 +1,5 @@
 package com.projectcosmos.api.controller;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -60,10 +59,10 @@ public class StarController {
 
         if (updatedStar.getStarName() != null)
             star.setStarName(updatedStar.getStarName());
-        
+
         if (updatedStar.getStarColor() != null)
             star.setStarColor(updatedStar.getStarColor());
-        
+
         Star savedStar = starRepository.save(star);
         return helpers.createResponseEntity(true, savedStar, "Star updated successfully", HttpStatus.OK);
     }

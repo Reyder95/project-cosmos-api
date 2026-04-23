@@ -8,7 +8,6 @@ import org.hibernate.annotations.JdbcTypeCode;
 import org.hibernate.type.SqlTypes;
 
 import com.projectcosmos.api.config.Helpers;
-import com.projectcosmos.api.dto.Module.ModuleAttributesDTO;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -23,7 +22,7 @@ import lombok.Data;
 @Table(name = "modules")
 @Data
 public class Module {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;

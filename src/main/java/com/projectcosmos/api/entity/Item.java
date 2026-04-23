@@ -2,8 +2,6 @@ package com.projectcosmos.api.entity;
 
 import java.time.LocalDateTime;
 
-import org.hibernate.annotations.ManyToAny;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -20,7 +18,7 @@ import lombok.Data;
 @Table(name = "items")
 @Data
 public class Item {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
